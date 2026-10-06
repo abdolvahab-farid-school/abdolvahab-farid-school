@@ -346,3 +346,28 @@ footer p {
         font-size: 30px;
     }
 }
+/* فیکس نمایش تصاویر در موبایل */
+.news-image img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+@media (max-width: 768px) {
+
+    .news-image {
+        width: 100%;
+        max-width: 100%;
+        overflow: hidden;
+    }
+
+    .news-image img {
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+    }
+
+}
