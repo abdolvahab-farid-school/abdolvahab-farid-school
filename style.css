@@ -4,6 +4,11 @@
    ========================================= */
 
 
+/* ---------- Font ---------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700;800;900&display=swap');
+
+
 /* ---------- Reset ---------- */
 
 * {
@@ -57,6 +62,13 @@ h4,
 span {
     overflow-wrap: anywhere;
     word-wrap: break-word;
+}
+
+button,
+input,
+textarea,
+select {
+    font-family: inherit;
 }
 
 main,
@@ -461,7 +473,7 @@ footer strong {
 }
 
 
-/* تصاویر عمومی سایت */
+/* ---------- تصاویر عمومی ---------- */
 
 .hero img,
 .about-section img,
@@ -474,7 +486,7 @@ footer strong {
 }
 
 
-/* گالری */
+/* ---------- Gallery ---------- */
 
 .gallery {
     width: 100%;
@@ -498,7 +510,7 @@ footer strong {
 
 
 /* =========================================
-   MOBILE
+   TABLET
    ========================================= */
 
 @media (max-width: 900px) {
@@ -587,7 +599,7 @@ footer strong {
     }
 
 
-    /* Intro */
+    /* ---------- Intro ---------- */
 
     .intro {
         padding: 55px 10px 40px;
@@ -602,7 +614,7 @@ footer strong {
     }
 
 
-    /* Quick cards */
+    /* ---------- Quick Cards ---------- */
 
     .quick-links {
         width: 100%;
@@ -623,7 +635,7 @@ footer strong {
     }
 
 
-    /* News */
+    /* ---------- News ---------- */
 
     .latest-news {
         width: 100%;
@@ -683,7 +695,7 @@ footer strong {
     }
 
 
-    /* Daily article */
+    /* ---------- Daily Article ---------- */
 
     .daily-article {
         width: 100%;
@@ -695,7 +707,7 @@ footer strong {
     }
 
 
-    /* Gallery */
+    /* ---------- Gallery ---------- */
 
     .gallery {
         width: 100%;
@@ -712,7 +724,7 @@ footer strong {
     }
 
 
-    /* Footer */
+    /* ---------- Footer ---------- */
 
     footer {
         width: 100%;
@@ -726,7 +738,7 @@ footer strong {
     }
 
 
-    /* Buttons */
+    /* ---------- Buttons ---------- */
 
     button,
     .map-button,
@@ -774,5 +786,6 @@ code {
     max-width: 100%;
 
     white-space: pre-wrap;
+
     overflow-wrap: anywhere;
 }
